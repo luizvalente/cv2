@@ -1,5 +1,5 @@
 body{
-    color:#40514E; 
+    color:#40514E;
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -26,6 +26,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3{
@@ -33,8 +34,32 @@ h3{
     font-family: 'Montserrat', sans-serif;
 }
 
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted #EAF6F6;
+    border-bottom: none;
+    margin: 100px auto;
+    width: 4%;
+}
+
+a{
+    color: #11999E;
+    font-family: 'Monserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none; /*para retirar o underline*/
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
 .profile-description{
     line-height:2;
+    margin: auto;
+    width: 30%;
 }
 
 .top-container{
@@ -44,24 +69,24 @@ h3{
 }
 
 .middle-container{
-
+    margin: 50px 0px;
 }
 
 .bottom-container{
-    background-color: #66BFBF
+    background-color: #66BFBF;
+    padding: 50px 0 20px ;
 }
 
 .skill-row{
     margin: 100px auto 100px auto; /*conserta o problema de ficar alinhado sem ser no centro*/
-    width: 50%;
+    width: 40%;
     text-align: left;
-    line-height: 2;
 }
 
 .top-cloud{
     position: absolute;
-    right: 300px;
-    top: 50px;
+    right: 250px;
+    top: 40px;
 }
 
 .bottom-cloud{
@@ -72,7 +97,6 @@ h3{
 
 .img-luiz{
     width:15%;
-    margin: 20px auto auto auto
 }
 
 .img-risk{
@@ -109,27 +133,11 @@ h3{
     line-height: 1;
 }
 
-.footer-link1{
-    color: #11999E;
-    line-height: 2;
-    margin-right: 10px;
-}
-
-.footer-link2{
-    color: #11999E;
-    line-height: 2;
-    margin-right: 10px;
-}
-
-.footer-link3{
-    color: #11999E;
-    line-height: 2;
-    margin-right: 10px;
-}
-
-.nome-final{
+.copyright{
     color: #EAF6F6;
     line-height: 2;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
 
 .btn {
@@ -142,7 +150,7 @@ h3{
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Monserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
